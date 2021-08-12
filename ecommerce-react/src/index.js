@@ -1,12 +1,23 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import Counter from "./components/counter"
+import Header from "./components/header"
+import Product from "./components/product"
+import Carousal from "./components/Carousel"
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Header/>
+<Carousal/>
+<Product/>
+<Product/>
+<Product/>
+<Product/>
+
   </React.StrictMode>,
   document.getElementById('root')
 );
