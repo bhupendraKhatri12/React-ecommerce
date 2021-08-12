@@ -1,0 +1,22 @@
+{
+  "name": "react-ecommerce",
+  "version": "1.0.0",
+  "description": "this is excommerce app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kushkc12/React-ecommerce.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Kush",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kushkc12/React-ecommerce/issues"
+  },
+  "homepage": "https://github.com/kushkc12/React-ecommerce#readme"
+}
