@@ -17,6 +17,10 @@ ReactDOM.render(
 <Product/>
 <Product/>
 <Product/>
+<Product/>
+<Product/>
+<Product/>
+
 
   </React.StrictMode>,
   document.getElementById('root')
