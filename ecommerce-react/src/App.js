@@ -1,8 +1,8 @@
 import './App.css';
 import {BrowserRouter as Router,Route,Switch} from "react-router-dom"
 import Header from './components/Header';
-
-
+import Home from "./components/Home"
+import Product from "./components/Product"
 function App() {
   return (
 <Router>
@@ -15,76 +15,8 @@ function App() {
 
 <Route path="/">
   <Header/>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
-  <h1>Home</h1>
+  <Home/>
+
 
 </Route>
 
@@ -92,9 +24,6 @@ function App() {
   <h1>Login page</h1>
 </Route>
  </Switch>
-
-
-
   </div>
 </Router>
 
